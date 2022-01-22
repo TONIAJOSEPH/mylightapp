@@ -1,0 +1,61 @@
+.header{
+    text-align: center;
+    /* position: fixed; */
+    /* margin-left: 350px; */
+}
+
+.bulb{
+    width: 100px;
+    height: 100px;
+    margin-left: 300px; 
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    background-color: grey;
+}
+.onbulbrect{
+    /* position: absolute; */
+    width: 45px;
+    height: 15px;
+    border: 1px solid black;
+    margin-left: 328px;            /* -73 */  
+    margin-top: -7px; 
+    background-color: black;
+    border-radius: 5px;
+}
+.bulbstand{
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    border: 1px solid;
+    margin-top: -3px;              /* -2 */
+    margin-left: 334px; 
+    border-radius: 5px;
+    background-color: black;
+}
+.onbutton{
+    width: 80px; 
+    height: 30px;
+    margin-left: 325px;
+    margin-top: 100px;
+    /* margin-right: 700px; */
+   background-color: green;
+   border: none;
+   cursor: pointer;
+   position: absolute;
+   border-radius: 20px;
+
+}
+.onbutton:hover{
+    background-color: blue;
+    color: white;
+}
+.onbulb{
+    width: 100px;
+    height: 100px;
+    margin-left: 300px; 
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    background-color: orange;
+}
